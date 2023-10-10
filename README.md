@@ -1,6 +1,6 @@
 # eslint-config minimal
 
-Reproduction for [Flat config] `ignores` doesn't work issue.
+Reproduction for [Flat config] `ignores` conflict with `rules` issue.
 
 ## Steps to reproduce
 
