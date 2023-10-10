@@ -5,7 +5,7 @@ export default antfu({
   ignores: [
     'src/scripts/**/*',
   ],
-  // rules: {
-  //   'node/prefer-global/process': 'off',
-  // },
+  rules: {
+    'node/prefer-global/process': 'off',
+  },
 })
