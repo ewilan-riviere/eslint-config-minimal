@@ -28,7 +28,7 @@ No errors.
 
 ## Actual behavior
 
-```
+```bash
 > eslint-config-minimal@1.0.0 lint /Users/ewilan/Workspace/eslint-config-minimal
 > eslint .
 
