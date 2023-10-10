@@ -1,4 +1,1 @@
-function build() {
-  console.log('Building...')
-}
-build()
+console.log('eslint should not complain about this file')

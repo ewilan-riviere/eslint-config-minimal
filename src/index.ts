@@ -1,4 +1,4 @@
 function start() {
-  console.log('Hello World!')
+  console.warn('Hello World!')
 }
 start()
