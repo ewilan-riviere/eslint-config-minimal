@@ -44,3 +44,20 @@ No errors.
 ## Origin
 
 If `rules` entry is commented in `eslint.config.js`, no errors are reported. So it seems that the `rules` conflict with the `ignores` entry.
+
+## Solution
+
+Just set `ignores` and `rules` in two different configs. Thanks to [@Simon-He95](https://github.com/antfu/eslint-config/issues/280#issuecomment-1754623094).
+
+```js
+export default antfu({
+  ignores: [
+    'src/scripts',
+  ],
+}, {
+  rules: {
+    'no-console': 'warn',
+    'node/prefer-global/process': 'off',
+  },
+})
+```
